@@ -1,0 +1,48 @@
+#LIST
+print("\nLIST")
+l = [1, 2, 6, 4, 9]
+print(l)
+
+#insert,append
+l.append(8)
+print(l)
+l.insert(2, 5)
+print(l)
+
+#remove
+l.remove(9)
+print(l)
+
+#sorting a list
+l.sort()
+print(l,"\n")
+
+#DICTIONARY
+print("\nDICITONARY")
+dic = {"brand": "Ford", "model": "Mustang", "year": 1964}
+print(dic)
+
+#insert item
+dic.update({"colour": "Red"})
+print(dic)
+
+#update
+dic.update({"year": 1970})
+print(dic)
+
+#remove item
+dic.pop("year")
+print(dic,"\n")
+
+#SETS
+print("\nSET")
+s = {1, 2, 3, 4, 5, 6, 9}
+print(s)
+
+#insertion
+s.add(7)
+print(s)
+
+#deletion
+s.remove(9)
+print(s)
